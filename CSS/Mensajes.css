@@ -1,0 +1,122 @@
+body
+{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+header
+{
+    height: 150px;
+    border-bottom: #D2CEC4 solid 1px;
+    display: flex;
+    align-items: center;
+}
+
+.point
+{
+    height: 150px
+}
+
+.point:hover
+{
+    background-color: #D2CEC4;
+}
+
+.box
+{
+  margin: 100px auto;
+  width: 300px;
+  height: 50px;
+}
+
+.barra input#search
+{
+  width: 300px;
+  height: 50px;
+  background: #D2CEC4;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: black;
+  padding-left: 45px;
+  border-radius: 25px;
+}
+
+.direct
+{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.icons
+{
+    display: flex;
+    align-items: center;
+}
+
+.a2
+{
+    margin: 50px;
+}
+
+article
+{
+    height: 700px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #D2CEC4 solid 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.personas
+{
+    display: flex;
+    padding-left: 30px;
+}
+
+.personas:hover
+{
+    background-color: #D2CEC4;
+}
+
+.actividad1
+{
+    margin-left: 30px
+}
+
+p
+{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.camaras
+{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+
+.camaras:hover
+{
+    opacity: 0.3;
+}
+
+.a1:hover
+{
+    opacity: 0.5;
+}
+
+.a2:hover
+{
+    opacity: 0.5;
+}
+

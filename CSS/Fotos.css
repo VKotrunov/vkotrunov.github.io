@@ -1,0 +1,144 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: rgb(29,30,30);
+    background: linear-gradient(90deg, rgba(29,30,30,0.6671043417366946) 0%, rgba(246,198,76,0.6222864145658263) 100%);
+}
+
+.header, .footer
+{
+    height: 10vh;
+}
+.header
+{
+    background-color: rgb(246, 198, 76);
+    text-align: center;
+}
+.header img
+{
+    max-height: 90%;
+    max-width: auto;
+    padding: 5px;
+}
+.footer
+{
+    background-color: rgb(29, 30, 30);
+    color: rgb(246, 198, 76);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.botonInicio
+{
+    background-color: rgb(246, 198, 76);
+    color: rgb(29, 30, 30);
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.botonDescubrir, .botonAñadir, .botonActividad, .botonPerfil
+{
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+}
+.botonInicio:hover, .botonDescubrir:hover, .botonAñadir:hover, .botonActividad:hover, .botonPerfil:hover
+{
+    transform: translateY(5%);
+}
+.footer img
+{
+    padding: 5%;
+    width: auto;
+    height: 60%;
+}
+a:link
+{
+    text-decoration: none;
+}
+
+.publicaciones img
+{
+  width: 20vw;
+  height: 30vh;
+  opacity: 0.8;
+}
+
+.publicaciones
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.publicacion
+{
+
+}
+.fila
+{
+  width: 20vw;
+  margin: 50px;
+}
+.publicacion:hover img,.container:hover
+{
+  opacity: 1;
+}
+.container:hover
+{
+    transform: scale(1.1);
+}
+
+.container
+{
+  width: 20vw;
+  height: 40vh;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 70px;
+  opacity: 0.8;
+}
+
+.text
+{
+  background-color: rgb(255, 255, 255);
+
+}
+.diferenciador
+{
+  min-height: 80vh;
+}
+
+.cuadroTexto
+{
+
+}
+
+.decoracion1 img
+{
+  height: 6px;
+  width: 100vw;
+  background-color: rgb(29, 30, 30);
+
+}
+.textDecoracion1
+{
+  font-size: 30px;
+  text-align: center;
+}
+
+.decoracion1
+{
+  height: 10vh;
+}
+.barraDecoracion
+{
+  margin-top: 10px;
+  width: 100vw;
+  height: 5px;
+  background-color:black;
+}

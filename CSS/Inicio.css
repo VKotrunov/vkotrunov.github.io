@@ -1,0 +1,117 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.header, .footer
+{
+    height: 10%;
+}
+.header
+{
+    background-color: rgb(246, 198, 76);
+    text-align: center;
+}
+.header img
+{
+    max-height: 90%;
+    max-width: auto;
+}
+.footer
+{
+    background-color: rgb(29, 30, 30);
+    color: rgb(246, 198, 76);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.footer img
+{
+    padding: 5%;
+    width: auto;
+    height: 60%;
+}
+a:link 
+{
+    text-decoration: none;
+}
+.botonInicio
+{
+    background-color: rgb(246, 198, 76);
+    color: rgb(29, 30, 30);
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.botonDescubrir, .botonAñadir, .botonActividad, .botonPerfil
+{
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+}
+.botonInicio:hover, .botonDescubrir:hover, .botonAñadir:hover, .botonActividad:hover, .botonPerfil:hover
+{
+    transform: translateY(5%);
+}
+.menu
+{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu img
+{
+    width: auto;
+    height: 20%;
+    padding: 20%;
+}
+.historias, .publicaciones, .directo
+{
+    width: 33.33%;
+    text-align: center;
+    transition: 0.4s;
+    background-size: contain;
+    background-repeat: round;
+}
+h1
+{
+    color: rgb(246, 198, 76);
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10%;
+    text-shadow: 3px 3px 7px black;
+}
+.historias:hover, .publicaciones:hover, .directo:hover
+{
+    transition: 0.4s;
+    transform: scale(1.03);
+    outline: 2px solid #FFFFFF;
+    box-shadow: 3px 3px 35px -9px rgba(255,255,255,1);
+}
+.historias:hover
+{
+    background-image: url("../IMG/historias_fondo_borroso.jpg");
+}
+.publicaciones:hover
+{
+    background-image: url("../IMG/publicaciones_fondo_borroso.jpg");
+}
+.directo:hover
+{
+    background-image: url("../IMG/directo_fondo_borroso.jpg");
+}
+.publicaciones
+{
+   background-image: url("../IMG/publicaciones_fondo.jpg");
+}
+.historias
+{
+    background-image: url("../IMG/historias_fondo.jpg");
+}
+.directo
+{
+    background-image: url("../IMG/directo_fondo.jpg");
+}

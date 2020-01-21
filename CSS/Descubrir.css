@@ -1,0 +1,57 @@
+.header 
+{
+    border: 2px solid yellow;
+    background-color: rgb(246, 198, 76);
+    text-align: center;
+    width: 100vw;
+    border-radius: 5px;   
+    flex-grow: 1;
+     height: 10vh;
+}
+img
+{
+    width: 200px;
+    height: 130px
+}
+main
+{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+        background-color: darkgoldenrod;
+}
+.sug:hover
+{
+   transform: scale(1) translateX(50px) rotate(20deg);
+   transition: transform 2s
+  
+} 
+        
+.sug
+{
+    width: 210px;
+    height: 150px;
+ background-color:white;
+    padding:10px 10px 50px 10px;
+    border:1px solid #BFBFBF;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.botonAñadir
+{
+    color: rgb(29, 30, 30);
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.botonDescubrir, .botonInicio, .botonActividad, .botonPerfil
+{
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+}
+.botonInicio:hover, .botonDescubrir:hover, .botonAñadir:hover, .botonActividad:hover, .botonPerfil:hover
+{
+    transform: translateY(5%);
+}

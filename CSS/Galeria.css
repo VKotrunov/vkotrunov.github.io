@@ -1,0 +1,133 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(210, 206, 196);;
+}
+
+section.galeria::-webkit-scrollbar 
+{
+    display: none;
+}
+
+section.galeria
+{
+    overflow-y: scroll;
+    height: 80%;
+    padding: 12px;
+}
+
+section.galeria img
+{
+    width: auto;
+    height: 100px;
+}
+
+.botonFotos
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 85px;
+    width: auto;
+}
+
+.botonFotos img
+{
+    width: 80px;
+}
+
+.botonFotos img:hover
+{
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+header, footer
+{
+    height: 10%;
+}
+
+header
+{
+    background-color: rgb(246, 198, 76);
+    text-align: center;
+}
+
+header img
+{
+    max-height: 90%;
+}
+
+footer
+{
+    background-color: rgb(29, 30, 30);
+    color: rgb(246, 198, 76);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+footer img
+{
+    padding: 5%;
+    width: auto;
+    height: 60%;
+}
+
+article
+{
+    height: 80vh;
+}
+
+section img
+{
+    width: auto;
+    max-height: 150px;
+    margin: 5px;
+}
+
+section.flex-container img:hover
+{
+    transform: scale(1.15,1.15);
+    transition: 0.5s linear;
+}
+
+.botonAñadir
+{
+    background-color: rgb(246, 198, 76);
+    color: rgb(29, 30, 30);
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.botonDescubrir, .botonInicio, .botonActividad, .botonPerfil
+{
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+}
+.botonInicio:hover, .botonDescubrir:hover, .botonAñadir:hover, .botonActividad:hover, .botonPerfil:hover
+{
+    transform: translateY(5%);
+}

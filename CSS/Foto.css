@@ -1,0 +1,163 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.header, .footer
+{
+	height: 10%;
+}
+.header
+{
+    background-color: rgb(246, 198, 76);
+    text-align: center;
+}
+.header img
+{
+    max-height: 90%;
+}
+.footer
+{
+    background-color: rgb(29, 30, 30);
+    color: rgb(246, 198, 76);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.footer img
+{
+    padding: 5%;
+    width: auto;
+    height: 60%;
+}
+.botonAñadir
+{
+    background-color: rgb(246, 198, 76);
+    color: rgb(29, 30, 30);
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.botonDescubrir, .botonInicio, .botonActividad, .botonPerfil
+{
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+}
+.botonInicio:hover, .botonDescubrir:hover, .botonAñadir:hover, .botonActividad:hover, .botonPerfil:hover
+{
+    transform: translateY(5%);
+}
+
+.fotos
+{
+    height: 80%;
+    background: url(../IMG/fotos01.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fotos img
+{
+    width: 60px;
+}
+
+.gradiente img[src="../IMG/fotos-icono2.png"]
+{
+    width: 30px;
+}
+
+.gradiente
+{
+    background-image: linear-gradient(to top, rgba(53, 53, 53, 0), rgba(53, 53, 53, 1));
+    height: 15%;
+}
+
+.gradiente img[src*="fotos-icono"]:hover
+{
+    transition: linear 0.5s;
+    transform: rotate(360deg);
+}
+
+.menu
+{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 10px 10px;
+}
+
+.menu h1
+{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(246, 198, 76);
+}
+
+.opciones
+{
+    display: none;
+}
+
+.filtros h1:hover
+{
+    cursor: pointer;
+}
+
+.filtros:hover .opciones
+{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+    overflow: hidden;
+    background-color: rgba(100, 100, 100, .8);
+    border-radius: 25px;
+    height: 250px;
+    width: 250px;
+}
+
+.opciones img
+{
+    height: 125px;
+    width: auto;
+}
+
+.opciones img:hover
+{
+    transition: all 0.3s linear;
+    transform: scale(0.9, 0.9);
+}
+
+.camara
+{
+    align-items: flex-end;
+    padding-top: 100px;
+    height: 60%;
+}
+
+.camara img:hover
+{
+    transform: scale(1.2,1.2);
+}
+
+img.botonCamara
+{
+    width: 70px;
+}
+
+.botonGaleria
+{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.botonGaleria img
+{
+    width: 100%;
+}

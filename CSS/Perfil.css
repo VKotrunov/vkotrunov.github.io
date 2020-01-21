@@ -1,0 +1,132 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.header, .footer
+{
+    height: 10%;
+}
+.header
+{
+    background-color: rgb(168, 138, 44);
+    text-align: center;
+}
+.header img
+{
+    max-height: 90%;
+    max-width: auto;
+    padding: 5px;
+}
+.footer
+{
+    background-color: rgb(29, 30, 30);
+    color: rgb(246, 198, 76);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.footer img
+{
+    padding: 5%;
+    width: auto;
+    height: 60%;
+}
+.botonPerfil
+{
+    background-color: rgb(246, 198, 76);
+    color: rgb(29, 30, 30);
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.botonDescubrir, .botonAñadir, .botonActividad, .botonInicio
+{
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+}
+.botonInicio:hover, .botonDescubrir:hover, .botonAñadir:hover, .botonActividad:hover, .botonPerfil:hover
+{
+    transform: translateY(5%);
+}
+.perfil
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 80%;
+    background-color: rgb(246, 198, 76);
+
+}
+.usuario
+{
+  border-radius: 15%;
+  padding-top: 3%;
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 0.35;
+  height: 60%;
+  border: 2px solid black;
+  align-content: center;
+
+
+}
+.imagen
+{
+  display:flex;
+  align-self: center;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.dato
+{
+  display:flex;
+  flex-grow: 2;
+
+}
+input
+{
+  border-radius: 5px;
+}
+.fila
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.editar
+{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+
+}
+.editar:hover
+{
+  background-color: inherit;
+}
+
+.boton
+{
+  text-decoration: none;
+  color: rgb(246, 198, 76);
+}
+.boton:hover
+{
+  color: inherit;
+}
+.c1
+{
+  width: 40%;
+}
+.c2
+{
+  width: 60%;
+}

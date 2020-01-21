@@ -1,0 +1,108 @@
+.padre{
+  display: flex;
+  justify-content: center;
+  align-content: center;}
+.cajita{
+  margin: 15px;
+  background-color: white;
+  border: 1px solid #D2CEC4;
+  width: 50%;
+  height: 95vh;}
+.fila1 a{
+    padding-top: 30px;}
+.fila1{
+  display: flex;
+  padding-bottom: 2vh;
+  border: 1px solid #D2CEC4;
+  height: 8vh;
+  border-collapse: collapse;}
+.fila2{
+  border: 1px solid #D2CEC4;
+  height: 60vh;
+  border-collapse: collapse;}
+  .publicaciones{
+    width: 49vw;
+    height: 59.8vh;
+    margin: auto;
+    display: block;}
+ .fila3{
+  border-left: 1px solid #D2CEC4;
+  border-right: 1px solid #D2CEC4;
+  border-bottom: 1px solid #D2CEC4;
+  height: 4.8vh;
+  border-collapse: collapse;}
+ .fila4{{
+    border-left: 1px solid #D2CEC4;
+    border-right: 1px solid #D2CEC4;
+    border-bottom: 1px solid #D2CEC4;
+    height: 15vh;
+    border-collapse: collapse;
+  }}
+body{background-color: rgb(210, 206, 196);
+margin: 0px;}
+header{
+  height: 10vh;
+  border-bottom: 2px solid #D2CEC4 ;
+  background-color: rgb(246, 198, 76);
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+.abuelo{height: 75%;}
+footer{
+  height: 10vh;
+  background-color: rgb(29, 30, 30);
+  color: rgb(246, 198, 76);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;}
+ .fotoperfil{
+  display: flex;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;}
+
+input[type=checkbox] + label {
+  content: url('../IMG/corazon.png');
+  width: 30px;
+  height: 30px;
+  padding-left: 1vh;
+  padding-top: 0.3vh;}
+
+input[type=checkbox]:checked + label {
+content: url('../IMG/corazonrojo.png');
+width: 30px;
+height: 30px;}
+
+.comentar{
+  width: 30px;
+  height: 30px;
+  padding-top: 0.3vh;
+  padding-left: 1vh;}
+.compartir{
+  width: 30px;
+  height: 30px;
+  padding-left: 1vh;
+  padding-top: 0.3vh;}
+.iconos{display: flex;}
+.comentar{
+  display: flex;
+  align-items: flex-end;}
+.hidden {position:absolute;visibility:hidden;opacity:0;}
+.botonAñadir
+{
+    color: rgb(29, 30, 30);
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.botonDescubrir, .botonInicio, .botonActividad, .botonPerfil
+{
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+}
+.botonInicio:hover, .botonDescubrir:hover, .botonAñadir:hover, .botonActividad:hover, .botonPerfil:hover
+{
+    transform: translateY(5%);
+}

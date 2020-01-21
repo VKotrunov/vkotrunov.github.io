@@ -1,0 +1,164 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.header, .footer
+{
+    height: 10%;
+}
+.header
+{
+    background-color: rgb(168, 138, 44);
+    text-align: center;
+}
+.header img
+{
+    max-height: 90%;
+    max-width: auto;
+    padding: 5px;
+}
+.footer
+{
+    background-color: rgb(29, 30, 30);
+    color: rgb(246, 198, 76);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.footer img
+{
+    padding: 5%;
+    width: auto;
+    height: 60%;
+}
+.botonInicio
+{
+    background-color: rgb(246, 198, 76);
+    color: rgb(29, 30, 30);
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.botonDescubrir, .botonAñadir, .botonActividad, .botonPerfil
+{
+    width: 15%;
+    margin: 15px 0px 0px 0px;
+}
+.botonInicio:hover, .botonDescubrir:hover, .botonAñadir:hover, .botonActividad:hover, .botonPerfil:hover
+{
+    transform: translateY(5%);
+}
+.directo
+{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(246, 198, 76);
+	display: flex;
+	flex-direction: row;
+  justify-content: space-around;
+  padding:10px;
+
+}
+.contactos
+{
+	border:1px solid black;
+	border-radius: 5%;
+	height: inherit;
+	width: 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+	overflow:hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.mensajes
+{
+	border:1px solid black;
+	border-radius: 5%;
+	height: inherit;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.enviados
+{
+	text-align: right;
+}
+.recividos
+{
+	text-align: left;
+}
+.usuario
+{
+	text-align: center;
+}
+.imagenContacto
+{
+  display:flex;
+  align-self: center;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.imagenContacto:hover
+{
+transition-duration: 1s;
+transform:scale(1.3);
+box-shadow: 2px 5px;
+
+}
+.fotos
+{
+  padding-top: 510px;
+  height: 900px;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.enviar
+{
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row;
+  width: auto;
+  width: 100%;
+}
+.texto
+{
+  display: flex;
+  align-self: flex-start;
+  width: 80%;
+}
+.boton
+{
+  width: 18%;
+}
+input
+{
+  border-radius: 5px;
+  border-color: black;
+  background-color: rgb(246, 198, 76);
+}
+.mensaje
+{
+  height: 97%;
+}
+.contactos::-webkit-scrollbar {
+  width: 10px;
+}
+.contactos::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+.contactos::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
